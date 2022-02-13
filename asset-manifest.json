@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/edvora-task/static/css/main.e6d84d50.css",
-    "main.js": "/edvora-task/static/js/main.065fffbf.js",
-    "index.html": "/edvora-task/index.html",
-    "main.e6d84d50.css.map": "/edvora-task/static/css/main.e6d84d50.css.map",
-    "main.065fffbf.js.map": "/edvora-task/static/js/main.065fffbf.js.map"
+    "main.css": "/Edvora-Task/static/css/main.e6d84d50.css",
+    "main.js": "/Edvora-Task/static/js/main.065fffbf.js",
+    "index.html": "/Edvora-Task/index.html",
+    "main.e6d84d50.css.map": "/Edvora-Task/static/css/main.e6d84d50.css.map",
+    "main.065fffbf.js.map": "/Edvora-Task/static/js/main.065fffbf.js.map"
   },
   "entrypoints": [
     "static/css/main.e6d84d50.css",
