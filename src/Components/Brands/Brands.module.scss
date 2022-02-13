@@ -1,0 +1,78 @@
+.container{
+    
+    width: 100%;    
+    .wrapper{
+        position: relative;
+        .img{
+            position: absolute;
+            top: 55%;
+            right:-30px;
+            cursor: pointer;        
+        }
+        .brandContent {
+            margin-bottom: 45px;
+            
+            .h1{            
+                text-align: left;
+            height: 31px;
+            font-family: Roboto;            
+            font-size: 20px;
+            line-height: 23px;            
+            color: #FFFFFF;
+            margin: 0 0 4px 16px;
+        }
+        
+        hr{
+            display: block;
+            margin-left: 14px;
+            height: 0px;
+            width: calc(100% -40px);
+            border: 1px solid rgba(203, 203, 203, 0.5);
+        }      
+
+        .brandContainer{
+            
+            padding-right: 20px;         
+            min-height: 190px; 
+            background: #131313;
+            border-radius: 15px;
+            display: flex; 
+            margin-top: 30px; 
+            width: auto;
+            max-width: 100%;
+            overflow-x: scroll;  
+            scroll-behavior: smooth;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }  
+        }
+    }
+        
+    }
+
+    @media only screen and (max-width: 820px) {
+        
+        
+        width: 60vw;    
+        min-width: 350px;
+        .wrapper{
+            .img{
+                position: absolute;
+                bottom: -150px;
+                right:80%;   
+                transform: rotate(90deg); 
+            }
+            .brandContent{  
+                .brandContainer{            
+                    height: 190px; 
+                flex-direction: column;
+                margin-top: 30px; 
+                overflow-y: scroll;
+                align-items: center; 
+            }
+
+        }
+    }
+    }
+}

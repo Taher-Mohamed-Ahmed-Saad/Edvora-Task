@@ -1,0 +1,159 @@
+.card{
+    width:210px;
+    min-width: 210px ;
+    height:150px;
+    background: #232323;
+    display: flex;
+    border-radius: 4.7px;
+    margin: 21px 0px 19px 20px;
+    padding: 10px 15px 14px 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;    
+    transition:0.7s all ease-in ;
+
+    .img{
+        margin: 0 20px 13px 0;
+        img{    
+            height: 70px;
+            width: 70px;
+            border-radius:5px ;
+        }
+    }
+
+    .productData{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        div:first-of-type{            
+            width: 93px;
+            height: 16px;
+            font-size: 15px;
+            line-height: 18px;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        div:nth-of-type(2){
+            width: 91px;
+            height: 14px;
+            color: rgba(255, 255, 255, 0.6);           
+            font-size: 13px;
+            line-height: 16px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom:11px;  
+            padding-left: 2px;          
+        }
+        div:nth-of-type(3){
+
+            width: 78.96px;
+            height: 15px;
+            font-size: 13px;
+            line-height: 16px;
+            color: #FFFF;
+            span{
+                width: 10.55px;
+                height: 14px;                
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                color: rgba(255, 255, 255, 0.8);
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        div:first-of-type{
+            width: 90px;
+            height: 14px;   
+            font-size: 13px;
+            line-height: 16px;
+            color: rgba(255, 255, 255, 0.6);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        div:nth-of-type(2){
+           display: flex;
+           align-items: baseline;
+           margin-bottom: 14px;
+            span:first-of-type{
+                width: 26.43px;
+                height: 12px; 
+                font-size: 11px;
+                line-height: 13px;
+                color: rgba(255, 255, 255, 0.6);
+                display: block;
+            }
+            span:last-of-type{
+                width: 66.57px;
+                height: 14px;            
+                font-style: normal;
+                font-weight: 500;
+                font-size: 11px;
+                line-height: 16px;
+                color: rgba(255, 255, 255, 0.6);
+                display: block;
+            }
+        }
+        div:nth-of-type(3){
+            width: 183px;
+            height: 15px;
+            font-size: 11px;
+            line-height: 13px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }  
+    
+    &:hover{   
+        min-width: 230px ;
+        margin: 11px 0px 9px 20px;
+        height: 170px;        
+    }  
+
+    @media only screen and (max-width: 820px) {
+
+        width:300px;
+        height:170px;  
+        .img{
+            width: 125px;           
+        }
+    
+        .productData{            
+            div:first-of-type{            
+                width: 120px;
+            }
+            div:nth-of-type(2){
+                width: 120px;                  
+            }            
+        }
+        .bottom{           
+            div:first-of-type{
+                width: 150px;
+            }
+            div:nth-of-type(2){               
+                span:last-of-type{
+                    width: 80px;
+                }
+            }
+            div:nth-of-type(3){
+                width: 100%;              
+            }
+        }  
+        &:hover{   
+            width:300px;
+            height:170px;
+            margin: auto;            
+            margin: 21px 0px 19px 20px;
+            padding: 10px 15px 14px 12px;  
+        }  
+    }
+}
+
